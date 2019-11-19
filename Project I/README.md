@@ -5,8 +5,8 @@ Project for PocketBeagle which uses Python to create an interface for an arm-mou
 Please visit https://www.hackster.io/hoangvu/wearable-metronome-53c2b7 for a complete tutorial and build instructions.
 
 IMPLEMENTATION FILES:
-wearable_metronome.py -- the main program which runs the wearable metronome
-run.sh -- startup script which runs wearable_metronome on reboot
+wearable_metronome.py -- the main program which runs the wearable metronome. Adjust variables LOWCORNER and HIGHCORNER for sensitivity of the LED to different frequencies bands.
+run.sh -- startup script which runs wearable_metronome on reboot.
 
 To autoboot run.sh, install these files and then add line to crontab using >> sudo crontab -e
 @reboot sleep 30 && sh /var/lib/cloud9/project_01/run.sh > /var/lib/cloud9/project_01/logs/cronlog 2>&1
