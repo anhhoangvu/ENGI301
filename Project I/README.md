@@ -2,7 +2,7 @@ WEARABLE METRONOME
 by HOANG VU
 
 Project for PocketBeagle which uses Python to create an interface for an arm-mounted metronome using vibrational motors to create rhythms and interacting with surrounding sound.
-Please visit https://www.hackster.io/eric-voigt/instrument-glove-4537b7 for a complete tutorial and build instructions.
+Please visit https://www.hackster.io/hoangvu/wearable-metronome-53c2b7 for a complete tutorial and build instructions.
 
 IMPLEMENTATION FILES:
 wearable_metronome.py -- the main program which runs the wearable metronome
